@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\RunSwepper">
+      <UniqueIdentifier>{ea49782f-7e48-4fce-88df-107c2f19542c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DotAscii">
+      <UniqueIdentifier>{1896d809-068e-40ca-b343-24517a2e461e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DrawDot">
+      <UniqueIdentifier>{6b21a4c7-e5a2-4326-84bc-993624ac013e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MineSwepper.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MineSwepper_Set.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GetTimeForStd.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyControl.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMath.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="RunSwepper.h">
+      <Filter>ヘッダー ファイル\RunSwepper</Filter>
+    </ClInclude>
+    <ClInclude Include="RunSwepper_Set.h">
+      <Filter>ヘッダー ファイル\RunSwepper</Filter>
+    </ClInclude>
+    <ClInclude Include="DotAscii.h">
+      <Filter>ヘッダー ファイル\DotAscii</Filter>
+    </ClInclude>
+    <ClInclude Include="DotAscii_Set.h">
+      <Filter>ヘッダー ファイル\DotAscii</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawDot.h">
+      <Filter>ヘッダー ファイル\DrawDot</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawDot_Set.h">
+      <Filter>ヘッダー ファイル\DrawDot</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyColor.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
